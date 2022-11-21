@@ -13,6 +13,11 @@
 	<value nick="vertical-gradient" value="2"/>
   </enum>
   <schema id="org.mate.background" path="/org/mate/desktop/background/">
+    <key name="draw-background" type="b">
+      <default>true</default>
+      <summary>Draw Desktop Background</summary>
+      <description>Have MATE draw the desktop background.</description>
+    </key>
     <key name="show-desktop-icons" type="b">
       <default>true</default>
       <summary>Show Desktop Icons</summary>
@@ -37,6 +42,21 @@
       <default>100</default>
       <summary>Picture Opacity</summary>
       <description>Opacity with which to draw the background picture.</description>
+    </key>
+    <key name="primary-color" type="s">
+      <default>'#5891BC'</default>
+      <summary>Primary Color</summary>
+      <description>Left or Top color when drawing gradients, or the solid color.</description>
+    </key>
+    <key name="secondary-color" type="s">
+      <default>'#3C8F25'</default>
+      <summary>Secondary Color</summary>
+      <description>Right or Bottom color when drawing gradients, not used for solid color.</description>
+    </key>
+    <key name="color-shading-type" enum="org.mate.background.color-shading-type-enum">
+      <default>'vertical-gradient'</default>
+      <summary>Color Shading Type</summary>
+      <description>How to shade the background color. Possible values are "horizontal-gradient", "vertical-gradient", and "solid".</description>
     </key>
   </schema>
 </schemalist>

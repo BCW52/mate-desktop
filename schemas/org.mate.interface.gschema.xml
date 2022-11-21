@@ -56,7 +56,7 @@
       <description>Length of the cursor blink cycle, in milliseconds.</description>
     </key>
     <key name="icon-theme" type="s">
-      <default>'Papirus-MATE-Dark'</default>
+      <default>'Papirus-Dark'</default>
       <summary>Icon Theme</summary>
       <description>Icon theme to use for the panel, Caja etc.</description>
     </key>
