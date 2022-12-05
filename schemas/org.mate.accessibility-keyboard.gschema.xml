@@ -21,7 +21,7 @@
       <default>false</default>
     </key>
     <key name="bouncekeys-delay" type="i">
-      <default>300</default>
+      <default>200</default>
       <summary>minimum interval in milliseconds</summary>
       <description>Ignore multiple presses of the _same_ key within @delay milliseconds.</description>
     </key>
@@ -32,7 +32,7 @@
       <default>false</default>
     </key>
     <key name="mousekeys-max-speed" type="i">
-      <default>10</default>
+      <default>15</default>
       <summary>Pixels per seconds</summary>
       <description>How many pixels per second to move at the maximum speed.</description>
     </key>

@@ -3,11 +3,11 @@
     <child name="calendar" schema="org.mate.applications-office.calendar"/>
     <child name="tasks" schema="org.mate.applications-office.tasks"/>
   </schema>
-  <schema id="org.mate.applications-office.calendar" path="/org/mate/desktop/applications/calendar/">
+  <schema id="org.mate.applications-office.writer" path="/org/mate/desktop/applications/writer/">
     <key name="exec" type="s">
-      <default>'evolution'</default>
-      <summary>Default calendar</summary>
-      <description>Default calendar application</description>
+      <default>'libreoffice --writer'</default>
+      <summary>Default word applicationd</summary>
+      <description>Default word application</description>
     </key>
     <key name="needs-term" type="b">
       <default>false</default>
@@ -15,11 +15,11 @@
       <description>Whether the default calendar application needs a terminal to run</description>
     </key>
   </schema>
-  <schema id="org.mate.applications-office.tasks" path="/org/mate/desktop/applications/tasks/">
+  <schema id="org.mate.applications-office.calc" path="/org/mate/desktop/applications/calc/">
     <key name="exec" type="s">
-      <default>'evolution'</default>
-      <summary>Default tasks</summary>
-      <description>Default tasks application</description>
+      <default>'libreoffice --calc'</default>
+      <summary>Default calculating</summary>
+      <description>Default calculating application</description>
     </key>
     <key name="needs-term" type="b">
       <default>false</default>

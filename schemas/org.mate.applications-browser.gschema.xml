@@ -1,7 +1,7 @@
 <schemalist gettext-domain="mate-desktop">
   <schema id="org.mate.applications-browser" path="/org/mate/desktop/applications/browser/">
     <key name="exec" type="s">
-      <default>'mozilla'</default>
+      <default>'google-chrome-stable'</default>
       <summary>Default browser</summary>
       <description>Default browser for all URLs.</description>
     </key>
