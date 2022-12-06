@@ -71,7 +71,7 @@
       <description>Basename of the default theme used by gtk+.</description>
     </key>
     <key name="gtk-color-scheme" type="s">
-      <default>''</default>
+      <default>'Orchis-Dark-Compact'</default>
       <summary>List of symbolic names and color equivalents</summary>
       <description>A '\n' separated list of "name:color" as defined by the 'gtk-color-scheme' setting</description>
     </key>
