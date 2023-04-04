@@ -51,27 +51,27 @@
       <description>Whether the cursor should blink.</description>
     </key>
     <key name="cursor-blink-time" type="i">
-      <default>1000</default>
+      <default>1200</default>
       <summary>Cursor Blink Time</summary>
       <description>Length of the cursor blink cycle, in milliseconds.</description>
     </key>
     <key name="icon-theme" type="s">
-      <default>'Papirus-Dark'</default>
+      <default>'ePapirus-Dark'</default>
       <summary>Icon Theme</summary>
       <description>Icon theme to use for the panel, Caja etc.</description>
     </key>
     <key name="gtk-theme" type="s">
-      <default>'Orchis-Dark-Compact'</default>
+      <default>'Menta'</default>
       <summary>Gtk+ Theme</summary>
       <description>Basename of the default theme used by gtk+.</description>
     </key>
     <key name="gtk-key-theme" type="s">
-      <default>'Orchis-Dark-Compact'</default>
+      <default>'Default'</default>
       <summary>Gtk+ Theme</summary>
       <description>Basename of the default theme used by gtk+.</description>
     </key>
     <key name="gtk-color-scheme" type="s">
-      <default>'Orchis-Dark-Compact'</default>
+      <default>''</default>
       <summary>List of symbolic names and color equivalents</summary>
       <description>A '\n' separated list of "name:color" as defined by the 'gtk-color-scheme' setting</description>
     </key>
