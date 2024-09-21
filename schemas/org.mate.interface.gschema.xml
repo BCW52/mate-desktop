@@ -61,7 +61,7 @@
       <description>Icon theme to use for the panel, Caja etc.</description>
     </key>
     <key name="gtk-theme" type="s">
-      <default>'Menta'</default>
+      <default>'Orchis-Dark-Compact'</default>
       <summary>Gtk+ Theme</summary>
       <description>Basename of the default theme used by gtk+.</description>
     </key>
